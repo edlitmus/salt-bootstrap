@@ -441,7 +441,7 @@ __usage() {
 EOT
 }   # ----------  end of function __usage  ----------
 
-while getopts ':hvnDc:g:Gx:k:s:MSWNXCPFUKIA:i:Lp:dH:bflV:J:j:rR:aqQ' opt
+while getopts ':hvnDc:g:Gx:k:s:MSWNXCPFUKIA:i:Lp:dH:bflV:J:j:rR:T:aqQ' opt
 do
   case "${opt}" in
 
